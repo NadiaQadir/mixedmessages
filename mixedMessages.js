@@ -1,3 +1,6 @@
+  
+  const button = document.createElement('button');
+
 let newJoke = () => {
     newJoke = '';
     let newFont = ''; 
@@ -36,11 +39,7 @@ let newJoke = () => {
           newFont = 'Comic Sans'
           break;
     }
-    var elem = document.getElementById('logo');
-    elem.style.color = newColor;
-    elem.style.fontFamily = newFont; 
-  }
+}
   
 
-  //this is a similar code i would need for mixed messages.
-  CLICK TO SEE YOUR FORTUNE DAILY (This could be the subject for mixed messages. after the button is clicked once could change to come back tomorrow, or we could stick to jokes and have the button change to click for a new joke)
+  
